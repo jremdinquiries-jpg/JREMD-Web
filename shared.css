@@ -1518,16 +1518,17 @@ footer {
 
 @media(max-width:900px) {
   .nl {
-    display: flex;
-    align-items: stretch;
-    flex: 0;
-    list-style: none;
-    margin-left: 8px;
-    height: 100%;
+    display: none;
   }
 
   .hbtn {
     display: flex;
+  }
+
+  .na {
+    margin-left: auto;
+    border-left: none;
+    padding-left: 0;
   }
 
   .container {
