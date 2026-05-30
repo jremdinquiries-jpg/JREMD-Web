@@ -926,9 +926,9 @@ img {
 }
 
 .feat-cell:hover {
-  border-color: var(--ice);
+  border-color: var(--ocean);
   box-shadow: var(--shadow-md);
-  transform: translateY(-3px);
+  transform: translateY(-4px);
 }
 
 .feat-cell:hover .feat-icon-wrap {
@@ -944,9 +944,9 @@ img {
 }
 
 .feat-icon-wrap {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
   background: var(--frost);
   display: grid;
   place-items: center;
@@ -1480,6 +1480,12 @@ footer {
 }
 
 /* ── RESPONSIVE ── */
+@media(max-width:1200px) {
+  .feat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media(max-width:1024px) {
   .ftop {
     grid-template-columns: 1fr 1fr;
