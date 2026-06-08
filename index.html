@@ -738,69 +738,14 @@
     <div class="hero-dots-bg"></div>
     <div class="hero-glow"></div>
     <div class="hero-glow-2"></div>
+    <!-- Intro banner (non-slideshow) -->
+    <div class="intro-banner" style="display:flex;justify-content:center;padding:24px 0;background:transparent">
+      <img src="logo.png" alt="JREMD logo" style="max-width:320px;height:auto;display:block;filter:drop-shadow(0 12px 36px rgba(0,180,216,.18))">
+    </div>
     <div class="hslides">
-     
-      <!-- Slide: INTRODUCTION -->
- 
-      <style>
-        @keyframes heroLogoFloat {
-          0%   { transform: translateY(0px); }
-          50%  { transform: translateY(-18px); }
-          100% { transform: translateY(0px); }
-        }
-        @keyframes heroLogoGlowPulse {
-          0%   { opacity: 0.55; transform: scale(1); }
-          50%  { opacity: 0.85; transform: scale(1.06); }
-          100% { opacity: 0.55; transform: scale(1); }
-        }
-        .intro-logo-wrap {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          max-width: 520px;
-          aspect-ratio: 4 / 3;
-          position: relative;
-          border-radius: 16px;
-          overflow: visible;
-        }
-        .intro-logo-glow {
-          position: absolute;
-          inset: -10%;
-          border-radius: 50%;
-          background: radial-gradient(
-            ellipse at center,
-            rgba(0, 180, 216, 0.30) 0%,
-            rgba(0, 119, 182, 0.16) 45%,
-            transparent 72%
-          );
-          animation: heroLogoGlowPulse 4s ease-in-out infinite;
-          pointer-events: none;
-          z-index: 0;
-        }
-        
-        .intro-logo-img {
-          position: relative;
-          z-index: 1;
-          width: 88%;
-          max-width: 420px;
-          height: auto;
-          object-fit: contain;
-          animation: heroLogoFloat 5s ease-in-out infinite;
-          filter:
-            drop-shadow(0 8px 32px rgba(0, 180, 216, 0.28))
-            drop-shadow(0 2px 8px rgba(255, 255, 255, 0.35));
-        }
-        @media (max-width: 1000px) {
-          .intro-logo-img  { width: 60%; }
-          .intro-logo-wrap { max-width: 100%; aspect-ratio: 3 / 2; }
-        }
-        @media (max-width: 800px) {
-          .intro-logo-img  { width: 55%; }
-          .intro-logo-wrap { aspect-ratio: unset; padding: 32px 0; }
-        }
-      </style>
-      <div class="hslide act" id="s0">
+
+      <!-- Slide 0: Introduction -->
+      <div class="hslide" id="s1">
         <div class="scnt">
           <div class="container">
             <div class="sinn">
@@ -812,20 +757,15 @@
                 <p class="sdesc">Since 2009</p>
               </div>
               <div class="svis rev">
-                <div class="intro-logo-wrap">
-                  <div class="intro-logo-glow"></div>
-                  <div class="intro-logo-ring"></div>
-                  <img
-                    src="logo.png"
-                    alt="JREMD Technologies, Inc. — Official Logo"
-                    class="intro-logo-img"
-                  />
+                <div style="display:flex;justify-content:center;align-items:center;max-width:520px;margin:0 auto;">
+                  <img src="logo.png" alt="JREMD Technologies, Inc. — Official Logo" style="width:88%;max-width:420px;height:auto;object-fit:contain;">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!-- Slide 1: Security -->
       <div class="hslide act" id="s0">
         <div class="scnt">
@@ -893,7 +833,7 @@
         </div>
       </div>
       <!-- Slide 2: Solar -->
-      <div class="hslide" id="s1">
+      <div class="hslide" id="s2">
         <div class="scnt">
           <div class="container">
             <div class="sinn">
@@ -978,7 +918,7 @@
         </div>
       </div>
       <!-- Slide 3: Communication -->
-      <div class="hslide" id="s2">
+      <div class="hslide" id="s3">
         <div class="scnt">
           <div class="container">
             <div class="sinn">
@@ -1045,7 +985,7 @@
         </div>
       </div>
       <!-- Slide 4: Biometrics -->
-<div class="hslide" id="s3">
+<div class="hslide" id="s4">
   <div class="scnt">
     <div class="container">
       <div class="sinn">
@@ -1179,7 +1119,7 @@
 </div>
 
 <!-- Slide 5: Fire Detection & Alarm -->
-<div class="hslide" id="s4">
+<div class="hslide" id="s5">
   <div class="scnt">
     <div class="container">
       <div class="sinn">
@@ -1359,6 +1299,7 @@
   <button class="hdot" data-s="2"></button>
   <button class="hdot" data-s="3"></button>
   <button class="hdot" data-s="4"></button>
+  <button class="hdot" data-s="5"></button>
 </div>
 
   </section>
