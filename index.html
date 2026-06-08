@@ -738,9 +738,6 @@
     <div class="hero-dots-bg"></div>
     <div class="hero-glow"></div>
     <div class="hero-glow-2"></div>
-    <!-- Intro banner (non-slideshow) -->
-     <div class="intro-banner" style="display:flex;justify-content:center;padding:24px 0;background:transparent">
-         </div>
 
       <!-- Slide 0: Introduction -->
       <style>
@@ -771,8 +768,8 @@
           border-radius: 50%;
           background: radial-gradient(
             ellipse at center,
-            rgba(0, 180, 216, 0.30) 0%,
-            rgba(0, 119, 182, 0.16) 45%,
+            rgba(254, 255, 255, 0.3) 0%,
+            rgba(241, 245, 247, 0.16) 45%,
             transparent 72%
           );
           animation: heroLogoGlowPulse 4s ease-in-out infinite;
@@ -782,14 +779,14 @@
         .intro-logo-img {
           position: relative;
           z-index: 1;
-          width: 88%;
-          max-width: 420px;
+          width: 104%;
+          max-width: 500px;
           height: auto;
           object-fit: contain;
           animation: heroLogoFloat 5s ease-in-out infinite;
           filter:
-            drop-shadow(0 8px 32px rgba(0, 180, 216, 0.28))
-            drop-shadow(0 2px 8px rgba(247, 245, 245, 0.35));
+            drop-shadow(0 8px 32px rgba(255, 255, 255, 0.28))
+            drop-shadow(0 2px 8px rgba(255, 255, 255, 0.35));
         }
         @media (max-width: 900px) {
           .intro-logo-img  { width: 78%; }
@@ -800,21 +797,20 @@
           .intro-logo-wrap { aspect-ratio: unset; padding: 32px 0; }
         }
       </style>
-      <div class="hslide act" id="s1">
+      <div class="hslide act" id="s0">
         <div class="scnt">
           <div class="container">
             <div class="sinn">
               <div class="stxt rev">
                 <div class="seb">
-                  <div class="sebl"></div><span>JREMD Technologies</span>
                 </div>
-                <h1 class="hero-h1">Quality Service<br>We<br><span class="hl">Provide</span></h1>
-                <p class="sdesc">Since 2009.</p>
+                <h1 class="hero-h1">JREMD<br><span class="hl">Technologies.</span></h1>
+                <p class="sdesc">Quality service we provide.</p>
               </div>
               <div class="svis rev">
                 <div class="intro-logo-wrap">
                   <div class="intro-logo-glow"></div>
-                  <div class="intro-logo-ring"></div>
+                  
                   <img
                     src="logo.png"
                     alt="JREMD Technologies, Inc. — Official Logo"
@@ -828,7 +824,7 @@
       </div>
 
       <!-- Slide 1: Security -->
-      <div class="hslide" id="s0">
+      <div class="hslide" id="s1">
         <div class="scnt">
           <div class="container">
             <div class="sinn">
