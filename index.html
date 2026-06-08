@@ -757,10 +757,14 @@
           justify-content: center;
           align-items: center;
           width: 100%;
-          max-width: 720px;
+          max-width: 520px;
           aspect-ratio: 4 / 3;
           position: relative;
           border-radius: 16px;
+          overflow: hidden;
+          border: 1px solid rgba(255, 255, 255, .12);
+          background: rgba(255, 255, 255, .05);
+          backdrop-filter: blur(8px);
         }
         .intro-logo-glow {
           position: absolute;
@@ -780,9 +784,9 @@
           position: relative;
           z-index: 1;
           width: 100%;
-          max-width: 520px;
-          height: auto;
-          object-fit: contain;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
           animation: heroLogoFloat 5s ease-in-out infinite;
           opacity: 1;
           display: block;
@@ -819,7 +823,6 @@
                     src="logo.png"
                     alt="JREMD Technologies, Inc. — Official Logo"
                     class="intro-logo-img"
-                    style="width:100% !important; max-width:720px !important; opacity:1 !important;"
                   />
                 </div>
               </div>
