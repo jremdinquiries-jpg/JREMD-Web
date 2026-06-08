@@ -103,7 +103,7 @@
         <div class="lw"><strong style="color:white;font-size:14px">JREMD Technologies</strong></div>
       </div>
     </a>
-    <span class="footer-copy" style="margin-right:auto;margin-left:20px">© 2025 JREMD Technologies, Inc.</span>
+    <span class="footer-copy" style="margin-right:auto;margin-left:20px">© 2026 JREMD Technologies, Inc. All Rights Reserved.</span>
     <div style="display:flex;align-items:center;gap:16px">
       <a href="https://www.facebook.com/jremdtechinc" target="_blank" rel="noopener" class="fsc fsc-slim" title="Facebook" aria-label="Visit our Facebook page">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
