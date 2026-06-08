@@ -3,3 +3,4 @@ Allow: /
 
 User-agent: Googlebot
 Allow: /logo.png
+Allow: /favicon.png
